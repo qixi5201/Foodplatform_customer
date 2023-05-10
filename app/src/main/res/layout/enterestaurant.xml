@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-8dp">
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+            <android.widget.Toolbar
+                android:id="@+id/toolbar4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#009393"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n噴火龍早午餐"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="供應義大利麵、濃湯、披薩等"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="#000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/oval"
+                    android:clickable="true"
+                    android:rotation="90"
+                    android:text="v"
+                    android:textColor="#fff"
+                    app:backgroundTint="@null" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="0"
+                    app:srcCompat="@drawable/enter_restaurant" />
+
+                <Button
+                    android:id="@+id/button4"
+                    style="@style/Theme.Project_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/oval"
+                    android:checkable="true"
+                    android:rotation="-90"
+                    android:text="v"
+                    android:textColor="#fff"
+                    app:backgroundTint="#009393" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="餐廳位址"
+                android:textColor="#000"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="新北市淡水區北新路xxx巷xxx號1樓"
+                android:textColor="#000"
+                android:textSize="24sp"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_rounded1"
+                    android:clickable="true"
+                    android:text="訂位"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    app:backgroundTint="#1F83DE" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_rounded1"
+                    android:clickable="true"
+                    android:text="外帶"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    app:backgroundTint="#1F83DE" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

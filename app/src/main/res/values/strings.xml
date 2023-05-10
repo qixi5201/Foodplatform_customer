@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">project_1</string>
+    <string-array name="array">
+        <item>12:00</item>
+        <item>12:05</item>
+        <item>12:10</item>
+        <item>12:15</item>
+        <item>12:20</item>
+        <item>12:25</item>
+        <item>12:30</item>
+        <item>12:35</item>
+    </string-array>
+</resources>
